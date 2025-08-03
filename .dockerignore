@@ -1,0 +1,46 @@
+# Node modules
+.env
+README.md
+
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.yaml
+.dockerignore
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# Misc
+*.swp
+*.swo
+.idea/
+.vscode/
+*.bak
+*.tmp
+*.orig

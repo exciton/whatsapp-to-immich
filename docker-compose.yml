@@ -1,0 +1,13 @@
+#name: whatsapp-to-immich
+
+services:
+  whatsapp-to-immich:
+    container_name: whatsapp-to-immich
+    image: exciton/whatsapp-to-immich
+    # stdin_open: true
+    # tty: true
+    env_file:
+      - .env
+    volumes:
+      - ${BACKUP_LOCATION}:/data:ro
+      - ${WORKING_LOCATION}:/working
